@@ -5,22 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visit Rwanda</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
 </head>
 <body>
-    <div class="service">
-        <div class="head"> <h1>Welcome to Visit Rwanda</h1>
-            <p>Navigate different sercices we offer</p>
+
+    <section id="home">
+        <div class="home">
+            <div class="positionlogo"><img src="r.jpeg" width="100">
+            </div>
+            <div id="paragraph">
+            <strong>  <h1 id="size">WELCOME TO RWANDA</h1></strong> 
+        <strong>  <h2 id="size">YOUR WISHES IS OUR ORDER</h2></strong> 
+    <strong>  <h15>Come and Enjoy Your Life In Rwanda!!</h15></strong> 
+            </div>
+            <div class="logo">
+                <img src="w.jpeg" width="50" height="50">
+            </div>
+
         </div>
-<div class="Booking">
-    <h1>Different Services we offer</h1>
-    <ul><li>Booking for hotels</li>
-        <li>Booking for culture</li>
-        <li>Tour Operators
-            <ul><li>Car Rental Agencies</li>
-                <li>Clarisse's Restauant</li></ul>
-        </li>
-        <li>Booking for Mountain Hikes</li>
-    </ul>
+    </section>
+    <strong><h1>Different Services we offer</h1></strong> 
+    <div class="Icon">
+        
+        <div>
+    <div  class="hike"><br>
+        <h3> Book for Hiking Mountain</h3><img src="kig.jpeg"><br>
+       </div>
+    </div>
+    <div>
+    <div id="hotels"><h3> Booking for Hotels</h3><img src="hot.jpeg"><br>
+    </div>
+    <div >
+     </div>
+    </div>
+    <div>
+    <div class="Culture"><h3> Booking for Culture</h3><img src="inyanza.jpeg"><br>
+    </div>
+    <div >   
+    </div>
+    </div>
+    <div>
+        <div class="history"><h3> Booking for History</h3><img src="kigali.jpg" width="300px" height="180px"><br>
+        </div>
+        <div>
+            
+        </div>
+        </div>
+    </div>
+<div id="hotel">
+
+<form class="form">
+    <h1>Booking form</h1>
+    <label>Enter Your Name:<input type="text" id="name" placeholder="Enter Full name" required></input></label><br>
+    <label>Enter your Email: <input type="email" id="email" placeholder="Enter email" required></input></label> <br>
+
+    <label> Enter Number of Visitors:<input type="number" id="number" placeholder="Enter number of Visitors" required></input></label><br>
+    <label> Enter Arrival Date:<input type="date" id="date" placeholder="Enter datetime" required></input></label><br>
+    <label> Enter Arrival Time:<input type="time" id="time" placeholder="Enter time" required></input></label><br>
+
+    <label> Enter Depature Date:<input type="date" id="date" placeholder="Enter datetime" required></input></label><br>
+    <label> Enter  DEpature Time:<input type="time" id="time" placeholder="Enter time" required></input></label><br>
+
+     Free Pick Up:<br>
+     <libel><input type="radio" id="radio" required></input>Yes Please! - Pick me up on arrival</label><br>
+     <libel><input type="radio" id="radio" required></input>No Thanks - I'll make my own way there</libel><br>
+     <label>Leave Comment: <textarea  id="email" placeholder="Enter email" required></textarea></label> <br>
+     <button> Submit</button>
+</form>
+</div>
+
 </div>
 
     </div>
