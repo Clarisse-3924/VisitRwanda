@@ -1,8 +1,8 @@
 #landing-page {
-    background-image: url("4.jpeg");
+    background-image: url("1.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 700px;
 }
 h1 {
     /* color: black; */
@@ -22,5 +22,5 @@ img {
 }
 #content {
     width: 500px;
-    /* line-height: 40px; */
+    line-height: 40px;
 }
