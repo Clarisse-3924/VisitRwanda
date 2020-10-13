@@ -1,6 +1,26 @@
 #landing-page {
-    background-image: url("1.jpeg");
+    background-image: url("4.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
 }
-h2 {
-    color: blue;
+h1 {
+    /* color: black; */
+    text-align: center;
+    padding-top: 180px;
+    font-size: 80px;
+    font-weight: 500px;
+
+}
+img {
+    height: 350px;
+    width: 550px;
+    padding-left: 100px;
+}
+#do {
+    padding-left: 10px;
+}
+#content {
+    width: 500px;
+    /* line-height: 40px; */
 }
