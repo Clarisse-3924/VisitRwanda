@@ -1,10 +1,15 @@
 # VisitRwanda
 
-#Author: Clarisse Uwizeyimana
-         Claudine Mahoro
-         Beatrice Mahoro
-         Edith Umutoniuwase
-         Jeanine Nishimwe
+#Author:
+Clarisse Uwizeyimana
+
+Claudine Mahoro
+
+Beatrice Mahoro
+
+Edith Umutoniuwase
+
+Jeanine Nishimwe
 
 #Date:12th October
 
@@ -16,7 +21,7 @@
 
 #Technologies used: I have used: html,javascripts,css,jquerries,Bootstrap,css
 
-#Dependenciessetup & installation instructions: You have to open yur terminal(Ctrl+Alt+T) You have to clone this project by using this link https://github.com/Clarisse-3924/Delani.git
+#Dependenciessetup & installation instructions: You have to open yur terminal(Ctrl+Alt+T) You have to clone this project by using this link 
 
 #Contact This my contact in case you want to contact. Email: cuwizeyimana820@daviscollege.com
 
