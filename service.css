@@ -1,0 +1,118 @@
+
+
+#hotel{
+    box-shadow:5px 5px 20px;
+    border-radius:15px;
+    padding:20px;
+    margin-left: 500px;  
+    margin-right: 300px;
+    background-color:lightgrey;
+    justify-content: space-evenly;
+    color: blue;
+    display: none;
+    
+    
+    
+}
+#hiking{box-shadow:5px 5px 20px;
+  border-radius:15px;
+  padding:20px;
+  margin-left: 500px;  
+  margin-right: 300px;
+  background-color:lightgrey;
+  justify-content: space-evenly;
+  color: blue;
+  display: none;
+
+}
+#historical{box-shadow:5px 5px 20px;
+  border-radius:15px;
+  padding:20px;
+  margin-left: 500px;  
+  margin-right: 300px;
+  background-color:lightgrey;
+  justify-content: space-evenly;
+  color: blue;
+  display: none;
+
+}
+#culture{
+  box-shadow:5px 5px 20px;
+  border-radius:15px;
+  padding:20px;
+  margin-left: 500px;  
+  margin-right: 300px;
+  background-color:lightgrey;
+  justify-content: space-evenly;
+  color: blue;
+  display: none;
+  
+
+}
+
+
+.Icon{
+    display: flex;
+    flex-direction:row;
+     justify-content:space-evenly;
+     padding: 20px;
+     box-shadow:5px 5px 20px;
+    border-radius:15px;
+    background-color:lightgrey;
+    justify-content: space-evenly;
+    color: blue; 
+  }
+ 
+.Booking{
+    box-shadow:5px 5px 20px;
+    border-radius:15px;
+    padding:20px;
+   
+    margin-top: 200px;
+    margin-right: 800px;
+    background-color:lightgrey;
+    justify-content: space-evenly;
+    color: blue; 
+}
+.positionlogo{
+    justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+.logo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 26px;}
+
+ .head{
+    margin-top: 900px;
+ }
+ h1{
+     text-align: center;
+ }
+ #home{
+    
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:url(image/ny.jpeg)no-repeat;
+     background-size: cover;
+     color:black;
+    
+   
+   
+  }
+  .paragraph{
+    display: flex;
+     flex-direction:column;
+      justify-content:space-evenly;
+      padding: 20px;
+      text-align:center;
+   }
+   #size{
+    font-size:50px;
+    
+   
+  }
