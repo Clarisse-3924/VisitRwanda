@@ -9,7 +9,44 @@
     background-color:lightgrey;
     justify-content: space-evenly;
     color: blue;
+    display: none;
     
+    
+}
+#hiking{box-shadow:5px 5px 20px;
+  border-radius:15px;
+  padding:20px;
+  margin-left: 500px;  
+  margin-right: 300px;
+  background-color:lightgrey;
+  justify-content: space-evenly;
+  color: blue;
+  display: none;
+
+}
+#historical{box-shadow:5px 5px 20px;
+  border-radius:15px;
+  padding:20px;
+  margin-left: 500px;  
+  margin-right: 300px;
+  background-color:lightgrey;
+  justify-content: space-evenly;
+  color: blue;
+  display: none;
+
+}
+#culture{
+  box-shadow:5px 5px 20px;
+  border-radius:15px;
+  padding:20px;
+  margin-left: 500px;  
+  margin-right: 300px;
+  background-color:lightgrey;
+  justify-content: space-evenly;
+  color: blue;
+  display: none;
+  
+
 }
 
 
