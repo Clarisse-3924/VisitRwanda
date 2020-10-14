@@ -1,34 +1,39 @@
-$(document).ready(function(){
-    $(".hike").click(function(){
-        $("#hotel").show();
-    });
-    $("#hotel").click(function(){
-        $("#hotel").hide();
-        
-    });
-    $("#hotels").click(function(){
-        $("#hotel").show();
-    });
-    $(".hotel").click(function(){
-        $("#hotel").hide();
-    });
-    $(".Culture").click(function(){
-        $("#hotel").show();
-        
-    });
-    $("#hotel").click(function(){
-        $(".Culture").show();
-        
-    });
 
-    $(".history").click(function(){
-        $("#hotel").show();
-        
-    });
-    $("#hotel").click(function(){
-        $(".history").show();
-        
-    });
+
+ $(document).ready(function(){
+        $(".hike").click(function(){
+            $(".hike").toggle();
+            $("#hotel").toggle();
+        });
+       
+        });
+        $("#hotels").click(function(){
+            $("#hotels").toggle();
+            $(".hotel").toggle();
+        });
+        $(".hotel").click(function(){
+            $("#hotels").toggle();
+            $(".hotel").toggle();
+        });
+        $(".Culture").click(function(){
+            $(".Culture").toggle();
+            $("#hotel").toggle();
+        });
+        $("#hotel").click(function(){
+            $(".Culture").toggle();
+            $("#hotel").toggle();
+        });
+
+        $(".history").click(function(){
+            $(".history").toggle();
+            $("#hotel").toggle();
+        });
+        $("#hotel").click(function(){
+            $(".history").toggle();
+            $("#hotel").toggle();
+        });
+
+
   
   
   });
