@@ -1,0 +1,32 @@
+#landing-page {
+    background-image: url("bg_2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+h1 {
+    /* color: black; */
+    text-align: center;
+    padding-top: 180px;
+    font-size: 80px;
+    font-weight: 500px;
+
+}
+img {
+    height: 300px;
+    width: 550px;
+    padding-left: 50px;
+   
+} 
+#do {
+    padding-left: 10px;
+}
+
+.content2, .content3 {
+    display: none;
+    line-height: 30px;
+    width: 50%
+}
+.content1 {
+    width: 70%;
+}
