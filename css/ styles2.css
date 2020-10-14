@@ -1,5 +1,5 @@
 #landing-page {
-    background-image: url("1.jpeg");
+    background-image: url("bg_2.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 700px;
@@ -13,14 +13,20 @@ h1 {
 
 }
 img {
-    height: 350px;
+    height: 300px;
     width: 550px;
-    padding-left: 100px;
-}
+    padding-left: 50px;
+   
+} 
 #do {
     padding-left: 10px;
 }
-#content {
-    width: 500px;
-    line-height: 40px;
+
+.content2, .content3 {
+    display: none;
+    line-height: 30px;
+    width: 50%
+}
+.content1 {
+    width: 70%;
 }
